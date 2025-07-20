@@ -1,0 +1,33 @@
+swagger: '2.0'
+info:
+  title: YOLO Object Detection API
+  version: '1.0'
+consumes:
+  - application/json
+produces:
+  - application/json
+#host: localhost:8080
+#schemes:
+#  - https 
+paths:
+  /detect:
+    post:
+      operationId: app.detect_from_file
+      summary: Perform object detection on uploaded image.
+      consumes:
+        - multipart/form-data
+      parameters:
+        - name: image_file
+          in: formData
+          description: Image
+          type: file
+          required: true
+      responses:
+        200:
+          description: Returns detections, confidences and coordinates.
+security:
+  - basicAuth: []
+securityDefinitions:
+  basicAuth:
+    type: basic
+    x-basicInfoFunc: app.basic_auth                               

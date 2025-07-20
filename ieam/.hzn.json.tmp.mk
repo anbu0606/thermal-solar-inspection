@@ -1,0 +1,5 @@
+export CONTAINER_REGISTRY=anything.jfrog.io
+export NAMESPACE=boston-dynamics
+export SERVICE_NAME=obstructed_unobstructed_hook_yolo_model
+export SERVICE_VERSION=0.0.2
+export IMAGE_NAME=obstructed_unobstructed_hook_yolo_model
