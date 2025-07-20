@@ -60,11 +60,7 @@ This project solves that by leveraging **AI-powered thermal image processing** u
 
 ## 🖼️ Sample Dashboard (Grafana)
 
-<<<<<<< HEAD
 ![Grafana Screenshot](/thermal-solar-inspection/grafana-dashboard.png)
-=======
-![Grafana Screenshot](\thermal-solar-inspection\grafana-dashboard.png)
->>>>>>> ffb7430e466252194d4fbc2033a59fd7f9c3a50a
 
 > 📊 The dashboard visualizes panel-level thermal metrics, system alerts, and real-time defect classification.
 
